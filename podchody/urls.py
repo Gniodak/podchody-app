@@ -16,11 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from podchody.views import sound, test
+from podchody.views import sound, riddle, blank
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', sound),
-    path('test/', test),
-    path('', test),
+    path('m/', sound),
+    path('r/', riddle),
+    path('', blank),
 ]
