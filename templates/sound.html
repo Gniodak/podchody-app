@@ -2,12 +2,12 @@
 {% load static %}
 {% block content %}
     <div class="center">
-        <audio controls>
+        <audio id="player" controls>
             <source src="{% static 'morse.mp3' %}" type="audio/mpeg">
             <source src="{% static 'morse.wav' %}" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
         </br>
-        <img class="center" src="{% static 'mors.png' %}" height="200" width="350"/>
+        <img class="center" src="{% static 'mors.png' %}" height="100%" width="100%"/>
     </div>
 {% endblock %}

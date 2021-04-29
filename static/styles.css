@@ -11,3 +11,7 @@ p {
     color: ivory;
     font-size: 50px;
 }
+
+#player {
+    width: 100%;
+}
